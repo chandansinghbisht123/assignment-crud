@@ -1,0 +1,31 @@
+.form{
+    background-color:lightblue;
+    width:400px;
+    height:600px;
+    margin-left:200px;
+}
+
+.container{
+    display:flex;
+}
+.input{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    /* height: 40px; */
+    width:200px;   
+    margin-left:50px;
+}
+
+.heading{
+  text-align:center;
+  font-size: 2em;
+  margin-bottom:40px;
+}
+
+.button{
+    display:flex;
+    justify-content:space-between;
+    margin: 10px;
+
+}

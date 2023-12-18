@@ -1,0 +1,35 @@
+.form{
+    background-color:darkgrey;
+    width:400px;
+    height:600px;
+    margin-left:200px;
+}
+
+.container{
+    display:flex;
+}
+.input{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width:180px;   
+    margin-left:50px;
+}
+
+.heading{
+  text-align:center;
+  font-size: 2em;
+  margin-bottom:40px;
+}
+
+.button{
+    display:flex;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+.username{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(233, 205, 169);
+    margin: 30px;
+}
